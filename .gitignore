@@ -1,0 +1,26 @@
+# --- Python Standartları ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# --- PyCharm / IDE Ayarları (Bunu eklemezseniz repo kirlenir) ---
+.idea/
+.vscode/
+*.swp
+
+# --- Proje Verileri (GitHub'a yüklenmemeli) ---
+data/
+models/
+*.mp4
+*.avi
+*.jpg
+*.png
+
+# --- İşletim Sistemi Artıkları ---
+.DS_Store
+Thumbs.db
